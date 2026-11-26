@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+<defs>
+<linearGradient id="bd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2F6FB0"/><stop offset=".5" stop-color="#C8A27A"/><stop offset="1" stop-color="#8B5E3C"/></linearGradient>
+<style>
+.score{font:700 22px 'Courier New',Consolas,monospace;fill:#1E3A5F;letter-spacing:2px}
+.foot{font:13px 'Courier New',Consolas,monospace;fill:#8B5E3C}
+.ax{font:12px 'Courier New',Consolas,monospace;fill:#7a6a58}
+.fit{stroke-dasharray:800;stroke-dashoffset:800;animation:fit 8s ease-in-out infinite}
+@keyframes fit{0%,8%{stroke-dashoffset:800}22%,92%{stroke-dashoffset:0}100%{stroke-dashoffset:800}}
+.pulse{transform-box:fill-box;transform-origin:center}
+.scan{animation:scan 8s linear infinite}
+@keyframes scan{from{transform:translateX(0)}to{transform:translateX(780px)}}
+@keyframes o0{0%,22.9%{opacity:1}29%,96%{opacity:0}100%{opacity:1}}
+@keyframes r0{0%,22.9%{r:0;opacity:0}23%{r:4;opacity:1}31%{r:26;opacity:0}100%{r:26;opacity:0}}
+.o0{animation:o0 8s linear infinite} .r0{animation:r0 8s ease-out infinite}
+@keyframes o1{0%,47.9%{opacity:1}54%,96%{opacity:0}100%{opacity:1}}
+@keyframes r1{0%,47.9%{r:0;opacity:0}48%{r:4;opacity:1}56%{r:26;opacity:0}100%{r:26;opacity:0}}
+.o1{animation:o1 8s linear infinite} .r1{animation:r1 8s ease-out infinite}
+@keyframes o2{0%,87.9%{opacity:1}94%,96%{opacity:0}100%{opacity:1}}
+@keyframes r2{0%,87.9%{r:0;opacity:0}88%{r:4;opacity:1}96%{r:26;opacity:0}100%{r:26;opacity:0}}
+.o2{animation:o2 8s linear infinite} .r2{animation:r2 8s ease-out infinite}
+@keyframes s0{0%,22.9%{opacity:1}23%,99.9%{opacity:0}100%{opacity:1}} .s0{animation:s0 8s steps(1,end) infinite}
+@keyframes s1{0%,22.9%{opacity:0}23%,47.9%{opacity:1}48%,100%{opacity:0}} .s1{animation:s1 8s steps(1,end) infinite}
+@keyframes s2{0%,47.9%{opacity:0}48%,87.9%{opacity:1}88%,100%{opacity:0}} .s2{animation:s2 8s steps(1,end) infinite}
+@keyframes s3{0%,87.9%{opacity:0}88%,99.9%{opacity:1}100%{opacity:0}} .s3{animation:s3 8s steps(1,end) infinite}
+</style>
+</defs>
+<rect x="2" y="2" width="896" height="296" rx="16" fill="#F7F1E8" stroke="url(#bd)" stroke-width="4"/>
+<text class="score s0" x="450" y="44" text-anchor="middle">PAUL 0 : 0 OUTLIERS</text><text class="score s1" x="450" y="44" text-anchor="middle">PAUL 1 : 0 OUTLIERS</text><text class="score s2" x="450" y="44" text-anchor="middle">PAUL 2 : 0 OUTLIERS</text><text class="score s3" x="450" y="44" text-anchor="middle">PAUL 3 : 0 OUTLIERS</text>
+<g stroke="#DCCBB5" stroke-width="1">
+<line x1="70" y1="270" x2="870" y2="270"/><line x1="70" y1="60" x2="70" y2="270"/>
+<line x1="70" y1="200" x2="870" y2="200" stroke-dasharray="4 6"/><line x1="70" y1="130" x2="870" y2="130" stroke-dasharray="4 6"/>
+</g>
+<rect class="scan" x="70" y="60" width="2" height="210" fill="#2F6FB0" opacity=".3"/>
+<circle cx="87.9" cy="243.0" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="106.9" cy="242.4" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="134.4" cy="224.5" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="156.1" cy="224.8" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="172.4" cy="216.2" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="195.1" cy="216.4" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="221.1" cy="212.2" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="240.7" cy="202.3" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="267.5" cy="212.4" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="286.8" cy="193.8" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="315.7" cy="209.2" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="329.5" cy="194.6" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="349.7" cy="191.4" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="379.8" cy="185.2" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="394.2" cy="166.0" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="418.5" cy="166.3" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="442.6" cy="170.9" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="460.5" cy="165.8" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="488.2" cy="152.3" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="509.0" cy="158.8" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="529.4" cy="146.6" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="554.4" cy="162.0" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="570.9" cy="133.8" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="600.5" cy="133.1" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="620.8" cy="128.2" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="635.4" cy="155.9" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="661.0" cy="126.7" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="683.9" cy="117.0" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="700.5" cy="111.5" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="728.9" cy="100.3" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="754.5" cy="103.3" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="773.1" cy="118.0" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="795.0" cy="84.5" r="5" fill="#2F6FB0" opacity=".85"/>
+<circle cx="821.3" cy="100.7" r="5" fill="#2F6FB0" opacity=".85"/>
+<line class="fit" x1="80" y1="236.9" x2="860" y2="88.7" stroke="#1E3A5F" stroke-width="3" stroke-linecap="round"/>
+<circle class="r0" cx="250" cy="80" r="0" fill="none" stroke="#8B5E3C" stroke-width="3"/>
+<circle class="o0 pulse" cx="250" cy="80" r="7" fill="#8B5E3C"/>
+<circle class="r1" cx="540" cy="250" r="0" fill="none" stroke="#8B5E3C" stroke-width="3"/>
+<circle class="o1 pulse" cx="540" cy="250" r="7" fill="#8B5E3C"/>
+<circle class="r2" cx="760" cy="235" r="0" fill="none" stroke="#8B5E3C" stroke-width="3"/>
+<circle class="o2 pulse" cx="760" cy="235" r="7" fill="#8B5E3C"/>
+<text class="ax" x="80" y="288">model.fit(X, y)  # IsolationForest(contamination=0.08)</text>
+<text class="foot" x="870" y="288" text-anchor="end">no outlier survives</text>
+</svg>
