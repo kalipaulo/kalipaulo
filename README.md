@@ -1,6 +1,6 @@
 <!-- ===================== BANNIÈRE ===================== -->
 <p align="center">
-  <img src="./assets/header.svg" alt="KRE Paul Roche Enock — Data Scientist · Data Analyst · BI" width="100%"/>
+  <img src="./header.svg" alt="KRE Paul Roche Enock — Data Scientist · Data Analyst · BI" width="100%"/>
 </p>
 
 <!-- ===================== TEXTE QUI DÉFILE ===================== -->
@@ -86,13 +86,13 @@ Statisticien de formation (**Licence en Statistique et Économie Appliquée**, U
 ## 🎮 Pause : les étapes de la data, séparées par un kernel
 
 <p align="center">
-  <img src="./assets/kernel-game.svg" alt="SVM à noyau RBF : Problème → Données → Python·SQL → Marketing" width="90%"/>
+  <img src="./kernel-game.svg" alt="SVM à noyau RBF : Problème → Données → Python·SQL → Marketing" width="90%"/>
 </p>
 
 ## 📈 Et une régression : Paul vs Outliers
 
 <p align="center">
-  <img src="./assets/regression-game.svg" alt="Régression et détection d'outliers — animation" width="90%"/>
+  <img src="./regression-game.svg" alt="Régression et détection d'outliers — animation" width="90%"/>
 </p>
 
 ---
@@ -181,7 +181,7 @@ Statisticien de formation (**Licence en Statistique et Économie Appliquée**, U
 </p>
 
 <p align="center">
-  <img src="./assets/goodbye.svg" alt="Merci d'être passé !" width="90%"/>
+  <img src="./goodbye.svg" alt="Merci d'être passé !" width="90%"/>
 </p>
 
 <p align="center">
